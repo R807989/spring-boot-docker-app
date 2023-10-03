@@ -5,8 +5,8 @@ pipeline {
     stages {
     stage{
 steps {
-      git 'https://github.com/R807989/spring-boot-docker-app.git'
-}
+git 'https://github.com/R807989/spring-boot-docker-app.git'
+      }
     }
     }
 }
