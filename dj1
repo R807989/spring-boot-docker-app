@@ -1,0 +1,10 @@
+pipeline {
+
+  agent any
+
+    stages {
+    stage{
+      git 'https://github.com/R807989/spring-boot-docker-app.git'
+    }
+    }
+}
