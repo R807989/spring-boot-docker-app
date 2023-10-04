@@ -3,7 +3,7 @@ pipeline {
   agent any
 
     stages {
-    stage{
+    stage("git init"){
 steps {
 git 'https://github.com/R807989/spring-boot-docker-app.git'
       }
